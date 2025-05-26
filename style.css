@@ -1,13 +1,15 @@
 * {
-    font-family: "Comic Sans MS";
+    color: white;
+    font-family: "verdana";
 }
 
 body{
     margin-top: 0px;
     margin-bottom: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: rgba(199, 199, 199, 0.6);
+    margin-left: 0px;
+    margin-right: 0px;
+    background: #1d88b3;
+    background: linear-gradient(291deg,rgba(29, 136, 179, 1) 0%, rgba(47, 181, 105, 1) 50%, rgba(186, 171, 39, 1) 100%);
 }
 
 h1{
@@ -17,11 +19,14 @@ h1{
 h2{
     text-decoration: underline;
     font-size: 30px;
+    margin-left: 50px;
 }
 
 p{
     text-align: justify;
     font-size: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .kepek{
@@ -48,11 +53,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(85, 85, 85);
+    background-color: black
   }
   
 li{
-    float: left;
+    font-size: 15px;
 }
   
 li a{
@@ -61,31 +66,40 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 0.3s;
 }
   
 li a:hover{
-    background-color: #111;
-    color: red;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
 }
 
 .het{
-    text-decoration: none;
-    color: red;
-}
-
-.het p{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
-    font-size: 40px;
     background-color: black;
-    width: 250px;
+    transition: 0.3s;
+    margin: 150px 800px 140px 800px;
+    border-radius: 15px;
 }
 
 .het:hover{
-    color: black;
+    background-color: white;
+    transition: 0.3s;
 }
 
 .het p:hover{
-    background-color: red;
+    color: black;
+    transition: 0.3s;
+}
+
+.het a{
+    text-decoration: none;
+}
+
+.het p{
+    font-size: 40px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
 }
